@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: BenfitIssuanceService
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql:///ish_database
+    username: root
+    password: Kanakaraju@123
+  jpa:
+    database-platform: org.hibernate.dialect.MySQLDialect
+    show-sql: true
+    hibernate:
+      ddl-auto: update
